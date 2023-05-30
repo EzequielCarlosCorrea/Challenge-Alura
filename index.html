@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Neucha&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Encripitador</title>
+
+</head>
+
+<body>
+   
+
+    <header>
+   
+        <img class="logo" src="Logo.png" id="logo">
+        <img class="decor" src="img.png" alt="">
+    
+    </header>
+
+
+ <main>
+   <section>
+       <textarea class="text-area" cols="41" rows="10" placeholder="Digite seu texto:"></textarea>
+       <h6>Apenas letras minúsculas e sem acento.</h6>
+
+       <div class="botoes">
+           <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+           <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptografar</button>
+       </div>
+
+   </section>
+
+   
+       <section>
+           <div class="text-area-mensagem">
+            <textarea class="mensagem" cols="25" rows="20"></textarea>
+           </div>
+             
+               <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+        
+       </section>
+
+</main>
+
+
+</body>
+<footer> Encripitador Alura &copy; By Ezequiel Carlos 023  </footer>
+<script src="script.js"></script>
+</html>
